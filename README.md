@@ -30,6 +30,7 @@ npm run build
 | `components` | Components that can be used across views |
 | `router`     | Routes for Vue Router                    |
 | `store`      | Store for Vuex                           |
+| `styles`     | Pre-processed CSS styles using SCSS      |
 | `views`      | Features                                 |
 
 ### Styling
