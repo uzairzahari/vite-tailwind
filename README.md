@@ -24,16 +24,17 @@ npm run build
 
 ### Folder Structure
 
-| Codebase | Description |
-| ----------- | ------------ |
-| `assets` | Images |
+| Codebase     | Description                              |
+| ------------ | ---------------------------------------- |
+| `assets`     | Images                                   |
 | `components` | Components that can be used across views |
-| `router` | Routes for Vue Router |
-| `store` | Store for Vuex |
-| `views` | Features |
+| `router`     | Routes for Vue Router                    |
+| `store`      | Store for Vuex                           |
+| `views`      | Features                                 |
 
 ### Styling
 
+- SASS - A CSS Pre-processors
 - TailwindCSS - A utility-first CSS framework
 
 ### Bundler / Build Tool
@@ -49,4 +50,3 @@ npm run build
 ### State Management & Routing
 
 - Vuex & Vue Router
-
