@@ -1,53 +1,39 @@
-# vite-tailwind-boilerplate
+# vite-tailwind
 
-> A foundation of Vite, frontend build tool used for Vue 3.
+## Build Setup
 
-## Project Setup
+```bash
+# install dependencies
+$ npm install
 
-```
-npm install
-```
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-Compiles and hot-reloads for development
-
-```
-npm run dev
-```
-
-Compiles and minifies for production
+# build for production and launch server
+$ npm run build
 
 ```
-npm run build
-```
 
-## Project Details
+## Special Directories
 
-### Folder Structure
+You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
 
-| Codebase     | Description                              |
-| ------------ | ---------------------------------------- |
-| `assets`     | Images                                   |
-| `components` | Components that can be used across views |
-| `router`     | Routes for Vue Router                    |
-| `store`      | Store for Vuex                           |
-| `styles`     | Pre-processed CSS styles using SCSS      |
-| `views`      | Features                                 |
+### `assets`
 
-### Styling
+The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
 
-- SASS - A CSS Pre-processors
-- TailwindCSS - A utility-first CSS framework
+### `components`
 
-### Bundler / Build Tool
+The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
 
-- Vite - a no bundler DEV environment for Vue.js
+### `router`
 
-### Linters and Formatters
+This directory contains your Vue Router routing files.
 
-- Default to eslint-plugin-vue and eslint-config-prettier
+### `store`
 
-- Do check .prettierrc.js for further information on code style, such as tabs & indentation etc..
+This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
-### State Management & Routing
+### `views`
 
-- Vuex & Vue Router
+This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
